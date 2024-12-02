@@ -4,7 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # Repospecific Excludes
-/AdventOfCode2024/Inputs/
+AdventOfCode2024/Inputs/*
+!AdventOfCode2024/Inputs/.gitkeep
 
 # User-specific files
 *.rsuser
