@@ -2,9 +2,9 @@
 
 
 using AdventOfCode.Utils;
-using AdventOfCode2024;
+using AdventOfCode2023;
 
-Day day = new Day1();
+Day day = new Day2();
 
 Console.WriteLine(day.ProblemOne());
 Console.WriteLine(day.ProblemTwo());
