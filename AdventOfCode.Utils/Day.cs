@@ -8,7 +8,6 @@ namespace AdventOfCode.Utils
         protected IEnumerable<string> lines;
         public Day(int day)
         {
-            //inputPath = $@"D:\VisualStudio\AdventOfCode\AdventOfCode{year}\Inputs\input{day}.txt";
             inputPath = $@"..\..\..\Inputs\input{day}.txt";
 
             lines = Reader.Read(inputPath);
