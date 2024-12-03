@@ -6,6 +6,8 @@
 # Repospecific Excludes
 AdventOfCode2024/Inputs/*
 !AdventOfCode2024/Inputs/.gitkeep
+AdventOfCode2023/Inputs/*
+!AdventOfCode2023/Inputs/.gitkeep
 
 # User-specific files
 *.rsuser
