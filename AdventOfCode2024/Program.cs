@@ -4,7 +4,7 @@
 using AdventOfCode.Utils;
 using AdventOfCode2024;
 
-Day day = new Day3();
+Day day = new Day4();
 
 Console.WriteLine(day.ProblemOne());
 Console.WriteLine(day.ProblemTwo());
