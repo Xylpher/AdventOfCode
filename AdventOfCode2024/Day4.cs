@@ -11,6 +11,7 @@ namespace AdventOfCode2024
             lineLenght = lines.First().Length;
         }
 
+        #region Star1
 
         public override string ProblemOne()
         {
@@ -114,6 +115,9 @@ namespace AdventOfCode2024
             return xmasFound;
         }
 
+        #endregion
+
+        #region Star2
 
         public override string ProblemTwo()
         {
@@ -135,7 +139,6 @@ namespace AdventOfCode2024
 
         private bool CheckDiagonalXmas(int lineIndex, int inlineIndex)
         {
-            //to topleft
             bool bottomLeftToTopRight = false;
             bool topLeftToBottomRight = false;
             if (lineIndex - 1 >= 0 && lineIndex + 1 < lines.Count()
@@ -158,5 +161,7 @@ namespace AdventOfCode2024
 
             return bottomLeftToTopRight && topLeftToBottomRight;
         }
+
+        #endregion
     }
 }
