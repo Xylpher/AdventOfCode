@@ -4,11 +4,8 @@ namespace AdventOfCode2024
 {
     internal class Day5 : Day
     {
-        int lineLenght;
-
         public Day5() : base(5)
         {
-            lineLenght = lines.First().Length;
         }
 
         public override string ProblemOne()
