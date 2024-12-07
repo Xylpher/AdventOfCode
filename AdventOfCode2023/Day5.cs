@@ -193,6 +193,7 @@ namespace AdventOfCode2023
                     seeds.Add(startSeed + j);
                 }
             }
+            seeds = seeds.Distinct().ToList();
 
 
             int lastIndexUsed = 3;
@@ -277,7 +278,7 @@ namespace AdventOfCode2023
             #endregion
 
             var lowestLocationNumber = long.MaxValue;
-
+            var currentSeedIndex = 0;
             foreach (var seed in seeds)
             {
                 var seedToSoilMap = seedToSoil.Where(x => x.SourceStart < seed && (x.SourceStart + x.Range) > seed).FirstOrDefault();
@@ -331,6 +332,8 @@ namespace AdventOfCode2023
 
                 if (location < lowestLocationNumber)
                     lowestLocationNumber = location;
+
+                currentSeedIndex++;
             }
 
 
