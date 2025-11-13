@@ -10,7 +10,7 @@ namespace AdventOfCode.Utils
         {
             inputPath = $@"..\..\..\Inputs\input{day}.txt";
 
-            lines = Reader.Read(inputPath);
+            lines = Reader.Read(inputPath).ToArray();
         }
 
         public virtual string ProblemOne()
