@@ -40,6 +40,7 @@ namespace AdventOfCode2025
             }
             return result.ToString();
         }
+
         public override string ProblemTwo()
         {
             long result = 0;
