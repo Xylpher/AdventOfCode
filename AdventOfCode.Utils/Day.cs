@@ -9,7 +9,6 @@ namespace AdventOfCode.Utils
         public Day(int day)
         {
             inputPath = $@"..\..\..\Inputs\input{day}.txt";
-
             lines = Reader.Read(inputPath).ToArray();
         }
 
@@ -17,12 +16,10 @@ namespace AdventOfCode.Utils
         {
             return "";
         }
+
         public virtual string ProblemTwo()
         {
             return "";
         }
-
-
-
     }
 }
